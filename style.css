@@ -202,3 +202,11 @@ nav{
 	color: #000;
 	font-size: 15px;
 }
+footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+	background: #131921;
+	padding: 20px 60px;
+}
