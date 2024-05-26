@@ -150,7 +150,7 @@ nav{
 }
 .product-slider .products img{
 	max-width: 200px;
-	max-height: 200;
+	max-height: 200px;
 }
 .product-slider-with-price{
 	background: #fff;
