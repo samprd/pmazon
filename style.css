@@ -7,7 +7,8 @@
 	font-family: Outfit;
 }
 body{
-	background-color: #dadada;
+	background-color: #d8caaf;
+	color: #4b3a30;
 }
 a{
 	text-decoration: none;
@@ -17,27 +18,27 @@ nav{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	background: #131921;
+	background: #211b13;
 	padding: 10px 20px;
-	color: #fff;
+	color: #ffe5a5;
 }
 .nav-country{
 	display: flex;
 	align-items: end;
 	margin-left: 15px;
 	font-size: 13px;
-	color: #c4c4c4;
+	color: #bc994e;
 }
 .nav-country h1{
-	color: #fff;
+	color: #ffe5a5;
 	font-size: 14px;
 }
 .nav-search{
 	flex: 1;
 	display: flex;
 	align-items: center;
-	background: #fff;
-	color: gray;
+	background: #ffe5a5;
+	color: #7a6843;
 	max-width: 1000px;
 	border-radius: 4px;
 	margin-left: 15px;
@@ -47,7 +48,7 @@ nav{
 	align-items: center;
 	padding: 10px 20px;
 	gap: 5px;
-	background: #e5e5e5;
+	background: #e5cfa1;
 	border-radius: 4px 0 0 4px;
 }
 .nav-search-input{
@@ -55,11 +56,12 @@ nav{
 	outline: none;
 	padding-left: 20px;
 	width: 100%;
+	background: #ffe5a5;
 }
 .nav-search-icon{
 	max-width: 41px;
 	padding: 8px;
-	background: #ffd64f;
+	background: #e5cfa1;
 	border-radius: 0 4px 4px 0;
 }
 .nav-language{
@@ -88,8 +90,8 @@ nav{
 	align-items: center;
 	gap: 20px;
 	padding: 8px 20px;
-	background: #232f3e;
-	color: #fff;
+	background: #3e3023;
+	color: #ffe5a5;
 	font-size: 15px;
 }
 .nav-bottom div{
@@ -123,21 +125,28 @@ nav{
 	flex-direction: column;
 	gap: 10px;
 	padding: 15px 20px;
-	background: #fff;
+	background: #595346;
+	color: #ffe5a5;
+	border-radius: 15px;
 	max-width: 24%;
 	min-height: 20px;
 	z-index: 1;
 }
 .box-column a{
 	font-size: 13px;
-	color: #009999;
+	color: #cabba2;
 	font-weight: 400;
+}
+.box-column img{
+	border-radius: 10px;
 }
 .header-box{
 	margin-top: -20vw;
 }
 .product-slider{
-	background: #fff;
+	background: #595346;
+	color: #ffe5a5;
+	border-radius: 15px;
 	margin: 0 30px;
 	padding: 20px;
 	margin-bottom: 15px;
@@ -151,10 +160,13 @@ nav{
 .product-slider .products img{
 	max-width: 200px;
 	max-height: 200px;
+	border-radius: 10px;
 }
 .product-slider-with-price{
-	background: #fff;
-	margin: 0 30px;
+	background: #595346;
+	color: #ffe5a5;
+	border-radius: 15px;
+	margin: 20px 30px;
 	padding: 20px;
 	margin-bottom: 15px;
 }
@@ -169,15 +181,17 @@ nav{
 	flex-direction: column;
 	justify-content: end;
 	min-width: 210px;
-	background: #fbfbfb;
+	background: #d8caaf;
+	border-radius: 15px;
+	padding: 10px
 }
 .product-card img{
 	width: 110px;
 	margin: 0 50px;
 }
 .product-offer p{
-	background: #be0b3b;
-	color: #fff;
+	background: #573405;
+	color: #ffe5a5;
 	display: inline-block;
 	padding: 2px 5px;
 	border-radius: 2px;
@@ -185,28 +199,28 @@ nav{
 	font-size: 13px;
 }
 .product-offer span{
-	color: #be0b3b;
+	color: #5f3806;
 	font-weight: 500;
 	font-size: 12px;
 }
 .product-price{
-	color: gray;
+	color: #716459;
 	font-size: 13px;
 }
 .product-card h4{
-	color: #525252;
+	color: #4c4030;
 	font-size: 13px;
 	font-weight: 400;
 }
 .product-price span{
-	color: #000;
+	color: #4d3f31;
 	font-size: 15px;
 }
 footer{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	color: #fff;
-	background: #131921;
+	color: #ffe5a5;
+	background: #211b13;
 	padding: 20px 60px;
 }
